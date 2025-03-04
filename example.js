@@ -11,15 +11,22 @@ async function example() {
     // Mostrar status inicial
     console.log(await rpg.getStatus());
     
-    // Exemplo de operações bancárias
-    console.log(await rpg.deposit(100)); // Depositar 100
-    console.log(await rpg.balance());     // Verificar saldo
-    console.log(await rpg.withdraw(50));  // Sacar 50
-    console.log(await rpg.balance());     // Verificar saldo
-    console.log(await rpg.transfer("654321", 30)); // Transferir 30 para outro usuário
-    console.log(await rpg.balance());     // Verificar saldo após transferência
+    // Listar empregos disponíveis
+    console.log(await rpg.listJobs());
     
-    // Mostrar status final após operações
+    // Aplicar para um emprego
+    console.log(await rpg.applyForJob('Vendedor')); // Aplicar para Vendedor
+    
+    // Trabalhar no emprego atual
+    console.log(await rpg.work()); // Trabalhar
+    
+    // Mostrar status após trabalho
+    console.log(await rpg.getStatus());
+    
+    // Demitir-se do emprego
+    console.log(await rpg.quitJob());
+    
+    // Mostrar status final
     console.log(await rpg.getStatus());
 }
 
