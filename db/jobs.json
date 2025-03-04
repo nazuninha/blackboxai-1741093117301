@@ -1,0 +1,326 @@
+[
+    {
+        "title": "Lixeiro",
+        "xpRequired": 0,
+        "specialAbility": null,
+        "salary": {
+            "min": 10,
+            "max": 20
+        },
+        "description": "Coleta lixo e mantém a cidade limpa.",
+        "workMessage": "Você coletou lixo e ganhou {amount} reais, ajudando a manter a cidade limpa e organizada!",
+        "offerMessage": "Você recebeu uma proposta para ser Vendedor!"
+    },
+    {
+        "title": "Vendedor",
+        "xpRequired": 20,
+        "specialAbility": null,
+        "salary": {
+            "min": 15,
+            "max": 30
+        },
+        "description": "Vende produtos e ganha comissões.",
+        "workMessage": "Você vendeu produtos e ganhou {amount} reais, fazendo clientes felizes!",
+        "offerMessage": "Você recebeu uma proposta para ser Garçom!"
+    },
+    {
+        "title": "Garçom",
+        "xpRequired": 30,
+        "specialAbility": null,
+        "salary": {
+            "min": 20,
+            "max": 40
+        },
+        "description": "Atende clientes em restaurantes.",
+        "workMessage": "Você atendeu clientes e ganhou {amount} reais, proporcionando uma ótima experiência!",
+        "offerMessage": "Você recebeu uma proposta para ser Mecânico!"
+    },
+    {
+        "title": "Mecânico",
+        "xpRequired": 40,
+        "specialAbility": null,
+        "salary": {
+            "min": 25,
+            "max": 50
+        },
+        "description": "Repara veículos e equipamentos.",
+        "workMessage": "Você consertou veículos e ganhou {amount} reais, garantindo a segurança dos motoristas!",
+        "offerMessage": "Você recebeu uma proposta para ser Policial!"
+    },
+    {
+        "title": "Policial",
+        "xpRequired": 60,
+        "specialAbility": "prisão",
+        "salary": {
+            "min": 50,
+            "max": 100
+        },
+        "description": "Mantém a ordem e pode prender jogadores.",
+        "workMessage": "Você patrulhou a cidade e ganhou {amount} reais, mantendo a paz e a segurança!",
+        "offerMessage": "Você recebeu uma proposta para ser Médico!"
+    },
+    {
+        "title": "Médico",
+        "xpRequired": 80,
+        "specialAbility": "cura",
+        "salary": {
+            "min": 60,
+            "max": 120
+        },
+        "description": "Recupera vida de si mesmo e dos outros.",
+        "workMessage": "Você salvou vidas e ganhou {amount} reais, fazendo a diferença na comunidade!",
+        "offerMessage": "Você recebeu uma proposta para ser Engenheiro!"
+    },
+    {
+        "title": "Engenheiro",
+        "xpRequired": 100,
+        "specialAbility": null,
+        "salary": {
+            "min": 70,
+            "max": 140
+        },
+        "description": "Desenvolve e constrói estruturas.",
+        "workMessage": "Você projetou e construiu estruturas incríveis, ganhando {amount} reais!",
+        "offerMessage": "Você recebeu uma proposta para ser Chef Executivo!"
+    },
+    {
+        "title": "Cozinheiro",
+        "xpRequired": 20,
+        "specialAbility": null,
+        "salary": {
+            "min": 20,
+            "max": 50
+        },
+        "description": "Prepara refeições em restaurantes.",
+        "workMessage": "Você preparou pratos deliciosos e ganhou {amount} reais, encantando os clientes!",
+        "offerMessage": "Você recebeu uma proposta para ser Motorista!"
+    },
+    {
+        "title": "Motorista",
+        "xpRequired": 10,
+        "specialAbility": null,
+        "salary": {
+            "min": 15,
+            "max": 35
+        },
+        "description": "Transporta pessoas ou mercadorias.",
+        "workMessage": "Você transportou passageiros e ganhou {amount} reais, garantindo a segurança de todos!",
+        "offerMessage": "Você recebeu uma proposta para ser Segurança!"
+    },
+    {
+        "title": "Segurança",
+        "xpRequired": 30,
+        "specialAbility": null,
+        "salary": {
+            "min": 30,
+            "max": 60
+        },
+        "description": "Protege propriedades e pessoas.",
+        "workMessage": "Você garantiu a segurança e ganhou {amount} reais, protegendo a comunidade!",
+        "offerMessage": "Você recebeu uma proposta para ser Artista!"
+    },
+    {
+        "title": "Artista",
+        "xpRequired": 40,
+        "specialAbility": null,
+        "salary": {
+            "min": 25,
+            "max": 70
+        },
+        "description": "Cria obras de arte e se apresenta.",
+        "workMessage": "Você encantou o público com suas obras de arte e ganhou {amount} reais!",
+        "offerMessage": "Você recebeu uma proposta para ser Cientista!"
+    },
+    {
+        "title": "Cientista",
+        "xpRequired": 100,
+        "specialAbility": "pesquisa",
+        "salary": {
+            "min": 100,
+            "max": 200
+        },
+        "description": "Realiza pesquisas e experimentos.",
+        "workMessage": "Você fez descobertas incríveis e ganhou {amount} reais, avançando a ciência!",
+        "offerMessage": "Você recebeu uma proposta para ser Piloto!"
+    },
+    {
+        "title": "Piloto",
+        "xpRequired": 120,
+        "specialAbility": null,
+        "salary": {
+            "min": 120,
+            "max": 250
+        },
+        "description": "Pilota aeronaves e transporta passageiros.",
+        "workMessage": "Você voou com segurança e ganhou {amount} reais, transportando passageiros!",
+        "offerMessage": "Você recebeu uma proposta para ser Veterinário!"
+    },
+    {
+        "title": "Veterinário",
+        "xpRequired": 150,
+        "specialAbility": "cura",
+        "salary": {
+            "min": 100,
+            "max": 200
+        },
+        "description": "Cuida da saúde de animais.",
+        "workMessage": "Você cuidou de animais e ganhou {amount} reais, fazendo a diferença na vida deles!",
+        "offerMessage": "Você recebeu uma proposta para ser Engenheiro de Software!"
+    },
+    {
+        "title": "Engenheiro de Software",
+        "xpRequired": 160,
+        "specialAbility": null,
+        "salary": {
+            "min": 150,
+            "max": 300
+        },
+        "description": "Desenvolve sistemas e aplicativos.",
+        "workMessage": "Você criou software inovador e ganhou {amount} reais, ajudando a empresa a crescer!",
+        "offerMessage": "Você recebeu uma proposta para ser Chef Executivo!"
+    },
+    {
+        "title": "Chef Executivo",
+        "xpRequired": 180,
+        "specialAbility": "cura",
+        "salary": {
+            "min": 200,
+            "max": 400
+        },
+        "description": "Cria pratos sofisticados e gerencia a cozinha.",
+        "workMessage": "Você preparou pratos incríveis e ganhou {amount} reais, encantando os clientes!",
+        "offerMessage": "Você recebeu uma proposta para ser Astronauta!"
+    },
+    {
+        "title": "Astronauta",
+        "xpRequired": 200,
+        "specialAbility": "exploração espacial",
+        "salary": {
+            "min": 300,
+            "max": 600
+        },
+        "description": "Explora o espaço e realiza pesquisas em ambientes extraterrestres.",
+        "workMessage": "Você explorou o espaço e ganhou {amount} reais, fazendo descobertas incríveis!",
+        "offerMessage": "Você recebeu uma proposta para ser CEO!"
+    },
+    {
+        "title": "CEO",
+        "xpRequired": 220,
+        "specialAbility": null,
+        "salary": {
+            "min": 400,
+            "max": 800
+        },
+        "description": "Gerencia uma empresa e toma decisões estratégicas.",
+        "workMessage": "Você liderou a empresa para o sucesso e ganhou {amount} reais!",
+        "offerMessage": "Você recebeu uma proposta para ser um Investidor!"
+    },
+    {
+        "title": "Investidor",
+        "xpRequired": 250,
+        "specialAbility": null,
+        "salary": {
+            "min": 500,
+            "max": 1000
+        },
+        "description": "Investe em empresas e projetos.",
+        "workMessage": "Você fez investimentos inteligentes e ganhou {amount} reais!",
+        "offerMessage": "Você recebeu uma proposta para ser um Magnata!"
+    },
+    {
+        "title": "Magnata",
+        "xpRequired": 300,
+        "specialAbility": null,
+        "salary": {
+            "min": 1000,
+            "max": 2000
+        },
+        "description": "Controla um império de negócios.",
+        "workMessage": "Você expandiu seu império e ganhou {amount} reais!",
+        "offerMessage": "Você recebeu uma proposta para ser um Filantropo!"
+    },
+    {
+        "title": "Filantropo",
+        "xpRequired": 350,
+        "specialAbility": null,
+        "salary": {
+            "min": 2000,
+            "max": 5000
+        },
+        "description": "Ajuda a sociedade com doações e projetos sociais.",
+        "workMessage": "Você fez a diferença na vida de muitas pessoas e ganhou {amount} reais!",
+        "offerMessage": "Você recebeu uma proposta para ser um Líder Mundial!"
+    },
+    {
+        "title": "Líder Mundial",
+        "xpRequired": 400,
+        "specialAbility": null,
+        "salary": {
+            "min": 5000,
+            "max": 10000
+        },
+        "description": "Lidera nações e toma decisões globais.",
+        "workMessage": "Você fez mudanças significativas no mundo e ganhou {amount} reais!",
+        "offerMessage": "Você recebeu uma proposta para ser um Visionário!"
+    },
+    {
+        "title": "Visionário",
+        "xpRequired": 450,
+        "specialAbility": null,
+        "salary": {
+            "min": 10000,
+            "max": 20000
+        },
+        "description": "Inova e transforma o futuro.",
+        "workMessage": "Você inspirou mudanças e ganhou {amount} reais!",
+        "offerMessage": "Você recebeu uma proposta para ser um Mentor!"
+    },
+    {
+        "title": "Mentor",
+        "xpRequired": 500,
+        "specialAbility": null,
+        "salary": {
+            "min": 20000,
+            "max": 50000
+        },
+        "description": "Orientador de novos talentos.",
+        "workMessage": "Você guiou novos talentos e ganhou {amount} reais!",
+        "offerMessage": "Você recebeu uma proposta para ser um Guru!"
+    },
+    {
+        "title": "Guru",
+        "xpRequired": 600,
+        "specialAbility": null,
+        "salary": {
+            "min": 50000,
+            "max": 100000
+        },
+        "description": "Um sábio que compartilha conhecimento.",
+        "workMessage": "Você compartilhou sua sabedoria e ganhou {amount} reais!",
+        "offerMessage": "Você recebeu uma proposta para ser um Sábio!"
+    },
+    {
+        "title": "Sábio",
+        "xpRequired": 700,
+        "specialAbility": null,
+        "salary": {
+            "min": 100000,
+            "max": 200000
+        },
+        "description": "Um mestre que guia a humanidade.",
+        "workMessage": "Você guiou a humanidade e ganhou {amount} reais!",
+        "offerMessage": "Você recebeu uma proposta para ser um Deus!"
+    },
+    {
+        "title": "Deus",
+        "xpRequired": 800,
+        "specialAbility": null,
+        "salary": {
+            "min": 200000,
+            "max": 500000
+        },
+        "description": "Um ser supremo que controla o destino.",
+        "workMessage": "Você moldou o destino e ganhou {amount} reais!",
+        "offerMessage": "Você recebeu uma proposta para ser um Criador!"
+    }
+]
